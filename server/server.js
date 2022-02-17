@@ -6,7 +6,7 @@ const { SocketAddress } = require("net");
 
 // 创建数据库连接
 var db_connection = mysql.createConnection({
-  host: "192.168.1.160", // 数据库地址
+  host: "47.104.167.112", // 数据库地址
   user: "todo_server",
   password: "qwertyuiop",
   database: "todo",
